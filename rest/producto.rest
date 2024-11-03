@@ -6,10 +6,9 @@ POST http://127.0.0.1:3021/producto
 Content-Type: application/json
 
 {
-    "nombre": "Parlantes",
-    "precio": 250,
-    "cantidad": 33,
-    "imagen": "Foto.jpg"
+    "otro campo": 10,
+    "nombre": "TecladoGamer5",
+    
 }
 
 ### Mostrar un producto
