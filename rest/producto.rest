@@ -1,0 +1,28 @@
+### Listar producto
+GET http://127.0.0.1:3021/producto
+
+### guardar producto
+POST http://127.0.0.1:3021/producto
+Content-Type: application/json
+
+{
+    "nombre": "Parlantes",
+    "precio": 250,
+    "cantidad": 33,
+    "imagen": "Foto.jpg"
+}
+
+### Mostrar un producto
+GET http://127.0.0.1:3021/producto/120
+
+### Modificar producto
+PUT http://127.0.0.1:3021/producto/Parlante
+Content-Type: application/json
+
+{
+    "nombre": "Parlante Modificado",
+    "precio": 250
+}
+
+### Eliminar un producto
+DELETE http://127.0.0.1:3021/producto/Parlante2
